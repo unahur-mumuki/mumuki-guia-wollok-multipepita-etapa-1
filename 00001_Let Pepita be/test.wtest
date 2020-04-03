@@ -1,0 +1,5 @@
+describe "Tests sobre Pepita" {
+	test "Pepita nace con energía 100" {
+		assert.equals(100, pepita.energia())
+	}
+}
