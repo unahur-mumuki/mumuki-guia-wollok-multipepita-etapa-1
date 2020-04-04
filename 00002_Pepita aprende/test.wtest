@@ -1,5 +1,11 @@
-describe "Group description"{
-	test "Sample description" {
-		assert.that(true)
+describe "Group description" {
+	test "Pepita está débil cuando nace" {
+		assert.that(pepita.estaDebil())
 	}
+
+	test "Pepita no está débil si come bastante" {
+	  pepita.comerAlpiste(30)
+		assert.notThat(pepita.estaDebil())
+	}
+
 }
