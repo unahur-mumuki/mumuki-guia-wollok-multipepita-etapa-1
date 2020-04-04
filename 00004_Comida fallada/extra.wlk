@@ -14,18 +14,3 @@ object pepita {
   
   method energia() { return energia }
 }
-
-
-// alpiste y mondongo los damos hechos
-object alpiste {
-	method energiaPorGramo() { return 4 }
-}
-
-object mondongo {
-	method energiaPorGramo() { return 100 }
-}
-
-
-// te toca a vos agregar alcaucil y sorgo
-
-
