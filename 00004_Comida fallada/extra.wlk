@@ -1,12 +1,9 @@
 object pepita {
   var energia = 0
   
-  // este método tiene que volar
-  method comerAlpiste(gramos) {
-    energia = energia + (gramos * 4)
+  method comer(comida, gramos) {
+    energia = energia + (gramos * comida.energiaPorGramo())
   }
-  
-  // acá hay que agregar un método comer con dos parámetros
   
   method volar(kms) {
     energia = energia - (kms + 10)
@@ -14,3 +11,13 @@ object pepita {
   
   method energia() { return energia }
 }
+
+
+object alpiste {
+	method energiaPorGramo() { return 4 }
+}
+
+object mondongo {
+	method energiaPorGramo() { return 100 }
+}
+
