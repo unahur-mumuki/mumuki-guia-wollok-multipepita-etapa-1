@@ -1,0 +1,17 @@
+describe "Tests sobre Pepita" {
+	test "Pepita nace con energía 0" {
+		assert.equals(0, pepita.energia())
+	}
+	
+	test "Efecto de comer" {
+    pepita.comerAlpiste(20) 
+    assert.equals(80, pepita.energia())
+	}
+	
+	test "Secuencia" {
+    pepita.comerAlpiste(100) 
+    pepita.volar(10) 
+    pepita.volar(20) 
+    assert.equals(350, pepita.energia())
+  }
+}

@@ -1,1 +1,1 @@
-Descripción en **markdown**
+En esta serie de ejercicios vamos a trabajar con **Pepita**, una golondrina de la que nos interesa estudiar cómo va variando su energía.
