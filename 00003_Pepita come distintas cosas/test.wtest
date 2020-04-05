@@ -1,5 +1,22 @@
-describe "Group description" {
-	test "Sample description" {
-		assert.that(true)
+describe "Pepita comer" {
+	test "Comer Alpiste" {
+	  pepita.comer(alcaucil, 10)
+		assert.equals(200, pepita.energia())
 	}
+	
+	test "Comer Sorgo" {
+	  pepita.comer(alcaucil, 10)
+		assert.equals(90, pepita.energia())
+	}
+	
+	test "Comer alpiste" {
+	  pepita.comer(alcaucil, 10)
+		assert.equals(40, pepita.energia())
+	}
+	
+	test "Comer mondongo" {
+	  pepita.comer(alcaucil, 10)
+		assert.equals(1000, pepita.energia())
+	}
+	
 }
