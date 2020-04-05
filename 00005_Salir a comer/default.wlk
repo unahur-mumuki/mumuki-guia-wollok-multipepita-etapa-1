@@ -1,5 +1,5 @@
 object pepita {
-  var energia = 0
+  var energia = 100
   
   method comer(comida, gramos) {
     energia += (gramos * comida.energiaPorGramo())
@@ -10,6 +10,5 @@ object pepita {
   }
   
   method energia() = energia 
-  
   
 }
