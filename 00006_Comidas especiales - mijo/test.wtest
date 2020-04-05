@@ -1,5 +1,14 @@
-describe "Group description"{
-	test "Sample description" {
-		assert.that(true)
+describe "Group mijo"{
+	test "Mijo mojarse" {
+	  mijo.mojarse()
+	  pepita.comer(mijo, 10)
+		assert.equals(150, pepita.energia())
 	}
+	
+	test "Mijo secarse" {
+	  mijo.secarse()
+	  pepita.comer(mijo, 10)
+	  assert.equals(350, pepita.energia())
+	}
+	
 }

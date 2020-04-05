@@ -1,0 +1,1 @@
+El mijo deberá tener la capacidad de recordar si esta mojado o nos
