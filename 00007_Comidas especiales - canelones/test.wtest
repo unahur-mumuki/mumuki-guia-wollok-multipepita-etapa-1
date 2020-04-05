@@ -1,4 +1,4 @@
-describe "Group canelones"{
+describe "Canelones"{
 	test "Sin queso y sin Salsa" {
 	  canelones.sacarQueso()
 	  canelones.sacarSalsa()
@@ -15,7 +15,7 @@ describe "Group canelones"{
 		assert.equals(25, canelones.energiaPorGramo())
 	}
 	test "Con queso y con Salsa" {
-	  canelones.sacarQueso()
+	  canelones.ponerQueso()
 	  canelones.ponerSalsa()
 		assert.equals(32, canelones.energiaPorGramo())
 	}
