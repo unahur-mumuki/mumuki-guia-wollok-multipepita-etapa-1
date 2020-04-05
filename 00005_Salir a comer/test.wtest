@@ -1,6 +1,6 @@
 describe "Pepita"{
 	test "SaliAComer" {
 	  pepita.saliAComer()
-		assert.equals(pepita.energia(),390)
+		assert.equals(pepita.energia(),290)
 	}
 }
