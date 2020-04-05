@@ -1,5 +1,5 @@
 object pepita {
-  var energia = 100
+  var energia = 0
   
   method comerAlpiste(gramos) {
     energia = energia + (gramos * 4)
@@ -11,4 +11,7 @@ object pepita {
   
   method energia() { return energia } 
   
+  method estaDebil() = energia < 50
+  
+  method estaFeliz() = energia between 500 and 1000
 }
