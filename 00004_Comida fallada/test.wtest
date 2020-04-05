@@ -1,5 +1,5 @@
-describe "Group description"{
-	test "Sample description" {
-		assert.that(true)
+describe "BigMac"{
+	test "energiaPorGramo" {
+		assert.equals(2, bigMac.energiaPorGramo())
 	}
 }
