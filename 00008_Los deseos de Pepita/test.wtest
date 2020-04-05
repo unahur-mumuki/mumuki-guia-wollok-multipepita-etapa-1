@@ -1,5 +1,16 @@
-describe "Group description"{
-	test "Sample description" {
-		assert.that(true)
+describe "Pepita"{
+	test "hace lo que quieras esta débil" {
+		assert.equals(80, pepita.energia())
 	}
+	
+	test "hace lo que quieras esta feliz" {
+	  pepita.comer(alpiste,200)
+		assert.equals(782, pepita.energia())
+	}
+	
+	test "hace lo que quieras no hace nada" {
+	  pepita.comer(alpiste,100)
+		assert.equals(400, pepita.energia())
+	}
+	
 }
