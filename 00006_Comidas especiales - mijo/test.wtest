@@ -1,16 +1,23 @@
 describe "Group mijo"{
-  var ave = pepita
-  
+
 	test "Mijo mojarse" {
 	  mijo.mojarse()
-	  ave.comer(mijo, 10)
-		assert.equals(150, ave.energia())
+	  pepita.comer(mijo, 10)
+		assert.equals(150, pepita.energia())
 	}
 	
 	test "Mijo secarse" {
-	  mijo.secarse()
+	  pepita.secarse()
 	  ave.comer(mijo, 10)
-	  assert.equals(350, ave.energia())
+	  assert.equals(200, pepita.energia())
+	}
+	
+	test "Mijo mojarse y secarse" {
+	  mijo.mojarse()
+	  pepita.comer(mijo, 10)
+	  pepita.secarse()
+	  ave.comer(mijo, 10)
+	  assert.equals(350, pepita.energia())
 	}
 	
 }
