@@ -1,3 +1,7 @@
+object alpiste {
+	method energiaPorGramo() { return 4 }
+}
+
 object pepita {
   var energia = 0
   
@@ -11,7 +15,7 @@ object pepita {
   
   method energia() { return energia }
   
-  method estaDebil() = energia < 50
+  method estaDebil() { return energia < 50 }
   
-  method estaFeliz() = energia.between(500,1000)
+  method estaFeliz() {return energia.between(500,1000) }
 }

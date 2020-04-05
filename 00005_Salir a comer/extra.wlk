@@ -1,8 +1,4 @@
 
-object alpiste {
-	method energiaPorGramo() { return 4 }
-}
-
 object mondongo {
 	method energiaPorGramo() { return 100 }
 }
