@@ -1,18 +1,18 @@
-describe "Group mijo"{
+describe "Mijo"{
 
-	test "Mijo mojarse" {
+	test "mojarse" {
 	  mijo.mojarse()
 	  pepita.comer(mijo, 10)
 		assert.equals(150, pepita.energia())
 	}
 	
-	test "Mijo secarse" {
+	test "secarse" {
 	  mijo.secarse()
 	  pepita.comer(mijo, 10)
 	  assert.equals(200, pepita.energia())
 	}
 	
-	test "Mijo mojarse y secarse" {
+	test "mojarse y secarse" {
 	  mijo.mojarse()
 	  pepita.comer(mijo, 10)
 	  mijo.secarse()
