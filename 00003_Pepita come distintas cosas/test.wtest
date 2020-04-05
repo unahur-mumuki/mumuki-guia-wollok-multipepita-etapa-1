@@ -15,7 +15,7 @@ describe "Pepita comer" {
 	}
 	
 	test "Comer Sorgo" {
-	  pepita.comer(alcaucil, 10)
+	  pepita.comer(sorgo, 10)
 		assert.equals(90, pepita.energia())
 	}
 	
