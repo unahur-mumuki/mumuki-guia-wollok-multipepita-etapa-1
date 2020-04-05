@@ -1,6 +1,6 @@
 describe "Group SaliAComer"{
 	test "SaliAComer" {
 	  pepita.saliAComer()
-		assert.equals(pepita.energia(),290)
+		assert.equals(pepita.energia(),390)
 	}
 }
