@@ -1,0 +1,1 @@
+Debes utilizar la palabra reservada self para indicar que pepita será el objeto receptor de los mensajes volar(kms) y comer(comida, gramos) dentro del metodo saliAComer()
