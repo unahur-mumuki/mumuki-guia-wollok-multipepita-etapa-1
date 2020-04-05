@@ -1,4 +1,4 @@
-describe "Canelones"
+describe "Canelones" {
 	test "sin queso y sin salsa" {
 	  canelones.sacarQueso()
 	  canelones.sacarSalsa()
