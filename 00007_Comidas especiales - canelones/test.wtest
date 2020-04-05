@@ -1,5 +1,22 @@
-describe "Group description"{
-	test "Sample description" {
-		assert.that(true)
+describe "Group canelones"{
+	test "Sin queso y sin Salsa" {
+	  canelones.sacarQueso()
+	  canelones.sacarSalsa()
+		assert.equals(20, canelones.energiaPorGramo())
+	}
+	test "Con queso y sin Salsa" {
+	  canelones.ponerQueso()
+	  canelones.sacarSalsa()
+		assert.equals(27, canelones.energiaPorGramo())
+	}
+	test "Sin queso y con Salsa" {
+	  canelones.sacarQueso()
+	  canelones.ponerSalsa()
+		assert.equals(25, canelones.energiaPorGramo())
+	}
+	test "Con queso y con Salsa" {
+	  canelones.sacarQueso()
+	  canelones.ponerSalsa()
+		assert.equals(32, canelones.energiaPorGramo())
 	}
 }
