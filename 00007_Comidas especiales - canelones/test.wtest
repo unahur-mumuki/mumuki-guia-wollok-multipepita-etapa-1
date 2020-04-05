@@ -1,20 +1,20 @@
-describe "Canelones"{
-	test "Sin queso y sin Salsa" {
+describe "Canelones"
+	test "sin queso y sin salsa" {
 	  canelones.sacarQueso()
 	  canelones.sacarSalsa()
 		assert.equals(20, canelones.energiaPorGramo())
 	}
-	test "Con queso y sin Salsa" {
+	test "con queso y sin salsa" {
 	  canelones.ponerQueso()
 	  canelones.sacarSalsa()
 		assert.equals(27, canelones.energiaPorGramo())
 	}
-	test "Sin queso y con Salsa" {
+	test "sin queso y con salsa" {
 	  canelones.sacarQueso()
 	  canelones.ponerSalsa()
 		assert.equals(25, canelones.energiaPorGramo())
 	}
-	test "Con queso y con Salsa" {
+	test "con queso y con salsa" {
 	  canelones.ponerQueso()
 	  canelones.ponerSalsa()
 		assert.equals(32, canelones.energiaPorGramo())
