@@ -15,7 +15,6 @@ object pepita {
   method energia() { return energia }
 }
 
-
 // alpiste y mondongo los damos hechos
 object alpiste {
 	method energiaPorGramo() { return 4 }
