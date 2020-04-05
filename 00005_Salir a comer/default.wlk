@@ -10,4 +10,8 @@ object pepita {
   }
   
   method energia() { return energia }
+  
+  method estaDebil() = energia < 50
+  
+  method estaFeliz() = energia.between(500,1000)
 }
