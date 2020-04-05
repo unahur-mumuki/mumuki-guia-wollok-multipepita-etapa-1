@@ -10,4 +10,5 @@ object pepita {
   }
   
   method energia() { return energia }
+  
 }
