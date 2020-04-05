@@ -13,5 +13,5 @@ object pepita {
   
   method estaDebil() = energia < 50
   
-  method estaFeliz() = energia between 500 and 1000
+  method estaFeliz() = energia.between(500,1000)
 }
