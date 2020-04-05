@@ -1,4 +1,4 @@
-describe "Group SaliAComer"{
+describe "Pepita"{
 	test "SaliAComer" {
 	  pepita.saliAComer()
 		assert.equals(pepita.energia(),390)
