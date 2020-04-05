@@ -1,4 +1,14 @@
 describe "Pepita comer" {
+	
+		test "Comer alpiste" {
+	  pepita.comer(alpiste, 10)
+		assert.equals(40, pepita.energia())
+	}
+	
+	test "Comer mondongo" {
+	  pepita.comer(mondongo, 10)
+		assert.equals(1000, pepita.energia())
+	}
 	test "Comer Alpiste" {
 	  pepita.comer(alcaucil, 10)
 		assert.equals(200, pepita.energia())
@@ -9,14 +19,6 @@ describe "Pepita comer" {
 		assert.equals(90, pepita.energia())
 	}
 	
-	test "Comer alpiste" {
-	  pepita.comer(alcaucil, 10)
-		assert.equals(40, pepita.energia())
-	}
-	
-	test "Comer mondongo" {
-	  pepita.comer(alcaucil, 10)
-		assert.equals(1000, pepita.energia())
-	}
+
 	
 }
