@@ -1,5 +1,8 @@
-describe "Group description"{
-	test "Sample description" {
-		assert.that(true)
+describe "Group SaliAComer"{
+	test "SaliAComer" {
+	  pepita.volar(5)
+	  pepita.comer(alpiste, 80)
+	  pepita.volar(5)
+		assert.equals(pepita.saliAComer(),300)
 	}
 }
