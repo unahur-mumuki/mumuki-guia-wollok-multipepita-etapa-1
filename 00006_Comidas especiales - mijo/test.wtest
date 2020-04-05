@@ -9,7 +9,7 @@ describe "Group mijo"{
 	
 	test "Mijo secarse" {
 	  mijo.secarse()
-	  pepita.comer(ave, 10)
+	  ave.comer(mijo, 10)
 	  assert.equals(350, ave.energia())
 	}
 	
