@@ -2,7 +2,7 @@ Implementar un objeto que modele a **Pepita**, una golondrina de la que nos inte
 
 En el modelo simplificado que nos piden implementar, las únicas acciones que vamos a contemplar son:
 
-- cuando Pepita _come_ una cantidad de alpiste especificada en gramos, en este caso adquiere 4 joules por cada gramo, y
+- cuando Pepita _come alpiste_, una cantidad especificada en gramos, en este caso adquiere 4 joules por cada gramo, y
 - cuando Pepita _vuela_ una cantidad de kilómetros, en este caso gasta un joule por cada kilómetro, más 10 joules de "costo fijo" de despegue y aterrizaje.
 
 La energía de Pepita nace en 0.
@@ -18,7 +18,7 @@ El objeto que implementa este modelo de Pepita, debe entender los siguientes men
 P.ej. si evaluamos la siguiente secuencia de mensajes en la consola
 
 ```wollok
-pepita.comer(100) 
+pepita.comerAlpiste(100) 
 pepita.volar(10) 
 pepita.volar(20) 
 pepita.energia() 
