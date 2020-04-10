@@ -11,18 +11,18 @@ describe "Group description" {
   test "Comer pastilla magica" {
     pepita.comerAlpiste(30)
     pepita.comerPastillaMagica()
-		assert.equas(240, pepita.energia())
+		assert.equals(240, pepita.energia())
   }
   
   test "energiaLibre positiva" {
     pepita.comerAlpiste(30)
-    assert.equas(70, pepita.energiaLibre())
+    assert.equals(70, pepita.energiaLibre())
   }
   
   test "energiaLibre 0" {
     pepita.comerAlpiste(10)
-    assert.equas(40, pepita.energia())
-    assert.equas(0, pepita.energiaLibre())
+    assert.equals(40, pepita.energia())
+    assert.equals(0, pepita.energiaLibre())
   }
   
 }
