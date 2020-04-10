@@ -8,4 +8,21 @@ describe "Group description" {
 		assert.notThat(pepita.estaDebil())
 	}
 
+  test "Comer pastilla magica" {
+    pepita.comerAlpiste(30)
+    pepita.comerPastillaMagica()
+		assert.equas(240, pepita.energia())
+  }
+  
+  test "energiaLibre positiva" {
+    pepita.comerAlpiste(30)
+    assert.equas(70, pepita.energiaLibre())
+  }
+  
+  test "energiaLibre 0" {
+    pepita.comerAlpiste(10)
+    assert.equas(40, pepita.energia())
+    assert.equas(0, pepita.energiaLibre())
+  }
+  
 }
