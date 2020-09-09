@@ -1,1 +1,1 @@
-Podes traerte la definición del objeto pepita que realizaste en el ejercicio 5 "Salí a Comer"
+Te traemos las definiciones del ejercicio 5 "Salí a Comer" para que contruyas sobre eso.
